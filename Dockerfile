@@ -23,7 +23,7 @@
 
 # ENV path='/py/bin:$PATH'
 # USER django-user
-FROM python:3.11.8
+FROM python:3.11
 LABEL maintainer="recipeapp.com"
 
 ENV PYTHONUNBUFFERED 1
